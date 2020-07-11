@@ -19,11 +19,8 @@
   /* выше установили ограничения для секции */
 }
 
-.logo {
-  position: absolute;
-}
-
 .logo_place_header {
+  position: absolute;
   width: 183px;
   height: 32px;
   top: 30px;
@@ -92,6 +89,7 @@
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -152,13 +150,14 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 20px 0 0 0;
+  margin: 20px 0;
 }
 
 .feinman{
@@ -197,7 +196,7 @@
 
 .kaufman {
   padding: 90px 0;
-  background: url(../images/kaufman-triangle.svg) #000 no-repeat right -210px top 0;
+  background: url(../images/kaufman-triangle.svg) #1f1f1f no-repeat right -210px top 0;
   background-size: 877px 877px;
   overflow: hidden;
 }
@@ -222,7 +221,7 @@
 .footer {
   min-height: 350px;
   padding: 60px 0 40px 0;
-  background-color: #000;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
