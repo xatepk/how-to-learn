@@ -283,18 +283,21 @@
   margin: 0 0 20px 0;
 }
 
+.footer__list-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .footer__column-links {
   text-decoration: none;
   color: #fff;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
-.footer__column-links:last-child {
+.footer__list-links:last-child {
   margin-bottom: 16px;
 }
 
