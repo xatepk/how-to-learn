@@ -283,13 +283,13 @@
   margin: 0 0 20px 0;
 }
 
-.footer__list-links {
+.footer__column-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-.footer__column-links {
+.footer__item-links {
   text-decoration: none;
   color: #fff;
   line-height: 30px;
@@ -297,7 +297,7 @@
   font-weight: normal;
 }
 
-.footer__list-links:last-child {
+.footer__column-links:last-child {
   margin-bottom: 16px;
 }
 
