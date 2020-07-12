@@ -289,7 +289,7 @@
   list-style-type: none;
 }
 
-.footer__item-links {
+.footer__list-item {
   text-decoration: none;
   color: #fff;
   line-height: 30px;
