@@ -4,6 +4,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  transition: opacity .7s;
+}
+
+.footer__list-item:hover {
+  opacity: .6;
 }
 
 
